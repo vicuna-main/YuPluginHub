@@ -1,3 +1,35 @@
+# YuRelic
+
+## 插件用途
+面向 Minecraft 服务器的灵器成长 RPG 插件，覆盖开光、灵契、成长、突破、器魂、饰品、掉落、跨服存储、防复制、诊断 GUI、PlaceholderAPI 与 Bukkit 事件扩展。
+
+## 分类与标签
+分类: rpg
+标签: 灵器, RPG, 成长, 跨服, GUI, API
+
+## 安装
+```bash
+从 Yu 插件交流群或爱发电获取发布版 jar 后部署
+```
+
+---
+
+# YuPay
+
+## 插件用途
+面向 Minecraft 服务器的微信支付与支付宝直连赞助插件，无中间商，官方通道费率仅 0.2%-0.6%，如需永久 0.2% 费率请联系作者。
+
+## 分类与标签
+分类: economy
+标签: 支付, 赞助, 微信支付, 支付宝, 卡密, 退款
+
+## 安装
+```bash
+首次启动后在 plugins/YuPay/config.yml 填写微信支付或支付宝官方商户参数
+```
+
+---
+
 # Yu Auth
 
 ## 插件用途
@@ -10,22 +42,6 @@
 ## 安装
 ```bash
 pnpm add yu-auth
-```
-
----
-
-# Yu Market
-
-## 插件用途
-为服务器提供玩家市场、商品上架、交易税率与经济系统联动能力。
-
-## 分类与标签
-分类: economy
-标签: 市场, 经济, 交易, 商品
-
-## 安装
-```bash
-pnpm add yu-market
 ```
 
 ---
@@ -46,16 +62,16 @@ pnpm add yu-protect
 
 ---
 
-# YuRelic
+# Yu Market
 
 ## 插件用途
-面向 Minecraft 服务器的灵器成长 RPG 插件，覆盖开光、灵契、成长、突破、器魂、饰品、掉落、跨服存储、防复制、诊断 GUI、PlaceholderAPI 与 Bukkit 事件扩展。
+为服务器提供玩家市场、商品上架、交易税率与经济系统联动能力。
 
 ## 分类与标签
-分类: rpg
-标签: 灵器, RPG, 成长, 跨服, GUI, API
+分类: economy
+标签: 市场, 经济, 交易, 商品
 
 ## 安装
 ```bash
-从 Yu 插件交流群或爱发电获取发布版 jar 后部署
+pnpm add yu-market
 ```

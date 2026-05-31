@@ -23,10 +23,10 @@
     },
     "pluginName": "YuProtect"
   },
-  "yu-market": {
+  "yupay": {
     "enabled": true,
     "pluginId": 30320,
-    "pluginName": "Yupay",
+    "pluginName": "YuPay",
     "software": "bukkit",
     "charts": {
       "servers": "servers",

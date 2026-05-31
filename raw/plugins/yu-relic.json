@@ -26,7 +26,7 @@
   },
   "compatibility": {
     "yu": "免费版 1.0.0 / 赞助版 1.0.13.31",
-    "node": "JDK 8 及以上，构建产物保持 Java 8 字节码",
+    "node": "JDK 8 及以上，兼容 Java 8 运行环境",
     "minecraft": "Bukkit/Spigot/Paper/Paper衍生/Youer/Arclight/其余混合端等 1.8.x - 1.26.x，已测试 1.21.1"
   },
   "links": {

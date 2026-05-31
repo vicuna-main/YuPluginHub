@@ -32,9 +32,7 @@
     "raw": "/raw/plugins/yu-market.md"
   },
   "bstats": {
-    "enabled": true,
-    "pluginId": 30320,
-    "pluginName": "Yupay",
+    "enabled": false,
     "software": "bukkit"
   },
   "showcase": {

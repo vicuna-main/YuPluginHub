@@ -10,10 +10,11 @@ Yu Plugin Hub 是 Yu 插件生态的文档、插件索引、统计与服务器�
 - Stats: /stats/
 
 ## Plugin Index
-- Yu Auth: /plugins/items/yu-auth/
-- Yu Market: /plugins/items/yu-market/
-- Yu Protect: /plugins/items/yu-protect/
 - YuRelic: /plugins/items/yu-relic/
+- YuPay: /plugins/items/yupay/
+- Yu Auth: /plugins/items/yu-auth/
+- Yu Protect: /plugins/items/yu-protect/
+- Yu Market: /plugins/items/yu-market/
 
 ## Raw Data
 - Plugin JSON: /data/plugins.json

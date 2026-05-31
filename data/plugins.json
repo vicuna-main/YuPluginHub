@@ -1,5 +1,170 @@
 [
   {
+    "slug": "yu-relic",
+    "name": "YuRelic",
+    "title": "YuRelic 灵器成长 RPG 插件",
+    "description": "面向 Minecraft 服务器的灵器成长 RPG 插件，覆盖开光、灵契、成长、突破、器魂、饰品、掉落、跨服存储、防复制、诊断 GUI、PlaceholderAPI 与 Bukkit 事件扩展。",
+    "category": "rpg",
+    "tags": [
+      "灵器",
+      "RPG",
+      "成长",
+      "跨服",
+      "GUI",
+      "API"
+    ],
+    "version": "1.0.13.31",
+    "status": "stable",
+    "availability": [
+      "paid",
+      "trial"
+    ],
+    "logo": "/assets/plugin-relic-logo.png",
+    "install": {
+      "npm": "将发布版 YuRelic-版本-obf.jar 放入服务端 plugins/ 目录",
+      "pnpm": "从 Yu 插件交流群或爱发电获取发布版 jar 后部署",
+      "yarn": "将发布版 jar 放入 plugins/ 后重启服务端"
+    },
+    "compatibility": {
+      "yu": "免费版 1.0.0 / 赞助版 1.0.13.31",
+      "node": "JDK 8 及以上，兼容 Java 8 运行环境",
+      "minecraft": "Bukkit/Spigot/Paper/Paper衍生/Youer/Arclight/其余混合端等 1.8.x - 1.26.x，已测试 1.21.1"
+    },
+    "links": {
+      "docs": "/plugins/items/yu-relic/",
+      "github": "https://github.com/vicuna-main/YuRelicIssueReport",
+      "raw": "/raw/plugins/yu-relic.llm.md"
+    },
+    "bstats": {
+      "enabled": true,
+      "pluginId": 31462,
+      "pluginName": "YuRelic",
+      "software": "bukkit"
+    },
+    "showcase": {
+      "serversEnabled": true,
+      "maxServers": 6
+    },
+    "docs": {
+      "rawMarkdown": true,
+      "llmSummary": true,
+      "jsonMeta": true
+    },
+    "ads": {
+      "enabled": true,
+      "slots": [
+        "plugin.detail.sidebar",
+        "plugin.detail.bottom"
+      ]
+    },
+    "security": {
+      "permissions": [
+        "yurelic.use",
+        "yurelic.open",
+        "yurelic.storage",
+        "yurelic.reload",
+        "yurelic.diagnose"
+      ],
+      "network": true,
+      "fileSystem": true
+    },
+    "updatedAt": "2026-05-31",
+    "featured": true,
+    "author": {
+      "name": "Vicuna",
+      "url": "https://github.com/vicuna-main"
+    },
+    "banner": "/assets/plugin-relic-banner.png",
+    "hero": {
+      "background": "/assets/plugin-relic-banner.png",
+      "accent": "#8b5cf6",
+      "headline": "YuRelic 灵器成长 RPG 插件",
+      "summary": "把武器、防具、工具和饰品培养成可成长、可传承、可跨服追踪的灵器体系。"
+    }
+  },
+  {
+    "slug": "yupay",
+    "name": "YuPay",
+    "title": "YuPay 直连收款赞助插件",
+    "description": "面向 Minecraft 服务器的微信支付与支付宝直连赞助插件，无中间商，官方通道费率仅 0.2%-0.6%，如需永久 0.2% 费率请联系作者。",
+    "category": "economy",
+    "tags": [
+      "支付",
+      "赞助",
+      "微信支付",
+      "支付宝",
+      "卡密",
+      "退款"
+    ],
+    "version": "1.5.0.0",
+    "status": "stable",
+    "availability": [
+      "free_use"
+    ],
+    "logo": "/assets/yupay/logo.png",
+    "install": {
+      "npm": "将发布版 YuPay-版本.jar 放入服务端 plugins/ 目录",
+      "pnpm": "首次启动后在 plugins/YuPay/config.yml 填写微信支付或支付宝官方商户参数",
+      "yarn": "配置公网回调地址后重启服务端，并使用 /yp health 检查状态"
+    },
+    "compatibility": {
+      "yu": "独立 Bukkit 插件，可与 Vault、PlayerPoints、PlaceholderAPI、ProtocolLib 联动",
+      "node": "JDK 8 及以上，兼容 Java 8 运行环境",
+      "minecraft": "适配 Bukkit/Spigot/Paper 及常见衍生端，最低兼容 Spigot API 1.8"
+    },
+    "links": {
+      "docs": "/plugins/items/yupay/",
+      "github": "https://github.com/vicuna-main/YuPayIssueReport",
+      "raw": "/raw/plugins/yupay.llm.md"
+    },
+    "bstats": {
+      "enabled": true,
+      "pluginId": 30320,
+      "pluginName": "YuPay",
+      "software": "bukkit"
+    },
+    "showcase": {
+      "serversEnabled": true,
+      "maxServers": 6
+    },
+    "docs": {
+      "rawMarkdown": true,
+      "llmSummary": true,
+      "jsonMeta": true
+    },
+    "ads": {
+      "enabled": true,
+      "slots": [
+        "plugin.detail.sidebar",
+        "plugin.detail.bottom"
+      ]
+    },
+    "security": {
+      "permissions": [
+        "yupay.command.pay",
+        "yupay.command.history",
+        "yupay.command.code",
+        "yupay.refund.request",
+        "yupay.admin"
+      ],
+      "network": true,
+      "fileSystem": true
+    },
+    "updatedAt": "2026-06-01",
+    "featured": true,
+    "author": {
+      "name": "Vicuna",
+      "url": "https://github.com/vicuna-main"
+    },
+    "banner": "/assets/yupay/banner.png",
+    "hero": {
+      "background": "/assets/yupay/banner.png",
+      "accent": "#a3e635",
+      "headline": "YuPay 直连收款赞助插件",
+      "summary": "微信支付与支付宝官方商户直连，省掉中间商抽成；费率仅 0.2%-0.6%，需要永久 0.2% 费率可联系作者。"
+    }
+  },
+  {
     "slug": "yu-auth",
     "name": "Yu Auth",
     "title": "Yu Auth 登录与鉴权插件",
@@ -74,83 +239,6 @@
       "accent": "#f97316",
       "headline": "Yu Auth 登录与鉴权插件",
       "summary": "为 Yu 服务器提供登录、鉴权、会话令牌与权限组能力，适合需要统一身份入口的服务器。"
-    }
-  },
-  {
-    "slug": "yu-market",
-    "name": "Yu Market",
-    "title": "Yu Market 交易市场插件",
-    "description": "为服务器提供玩家市场、商品上架、交易税率与经济系统联动能力。",
-    "category": "economy",
-    "tags": [
-      "市场",
-      "经济",
-      "交易",
-      "商品"
-    ],
-    "version": "0.9.2",
-    "status": "beta",
-    "availability": [
-      "free"
-    ],
-    "logo": "/assets/plugin-market.svg",
-    "install": {
-      "npm": "npm install yu-market",
-      "pnpm": "pnpm add yu-market",
-      "yarn": "yarn add yu-market"
-    },
-    "compatibility": {
-      "yu": ">=1.0.0",
-      "node": ">=18.0.0",
-      "minecraft": "1.20 - 1.21"
-    },
-    "links": {
-      "docs": "/plugins/items/yu-market/",
-      "github": "https://github.com/yu-plugins/yu-market",
-      "raw": "/raw/plugins/yu-market.md"
-    },
-    "bstats": {
-      "enabled": true,
-      "pluginId": 30320,
-      "pluginName": "Yupay",
-      "software": "bukkit"
-    },
-    "showcase": {
-      "serversEnabled": true,
-      "maxServers": 6
-    },
-    "docs": {
-      "rawMarkdown": true,
-      "llmSummary": true,
-      "jsonMeta": true
-    },
-    "ads": {
-      "enabled": true,
-      "slots": [
-        "plugin.detail.sidebar"
-      ]
-    },
-    "security": {
-      "permissions": [
-        "read-config",
-        "write-data",
-        "economy-access"
-      ],
-      "network": false,
-      "fileSystem": true
-    },
-    "updatedAt": "2026-05-31",
-    "featured": false,
-    "author": {
-      "name": "Yu Plugin Team",
-      "url": "https://github.com/vicuna-main"
-    },
-    "banner": "/assets/plugin-market.svg",
-    "hero": {
-      "background": "/assets/plugin-market.svg",
-      "accent": "#eab308",
-      "headline": "Yu Market 交易市场插件",
-      "summary": "为服务器提供玩家市场、商品上架、交易税率与经济系统联动能力。"
     }
   },
   {
@@ -232,45 +320,40 @@
     }
   },
   {
-    "slug": "yu-relic",
-    "name": "YuRelic",
-    "title": "YuRelic 灵器成长 RPG 插件",
-    "description": "面向 Minecraft 服务器的灵器成长 RPG 插件，覆盖开光、灵契、成长、突破、器魂、饰品、掉落、跨服存储、防复制、诊断 GUI、PlaceholderAPI 与 Bukkit 事件扩展。",
-    "category": "rpg",
+    "slug": "yu-market",
+    "name": "Yu Market",
+    "title": "Yu Market 交易市场插件",
+    "description": "为服务器提供玩家市场、商品上架、交易税率与经济系统联动能力。",
+    "category": "economy",
     "tags": [
-      "灵器",
-      "RPG",
-      "成长",
-      "跨服",
-      "GUI",
-      "API"
+      "市场",
+      "经济",
+      "交易",
+      "商品"
     ],
-    "version": "1.0.13.31",
-    "status": "stable",
+    "version": "0.9.2",
+    "status": "beta",
     "availability": [
-      "paid",
-      "trial"
+      "free"
     ],
-    "logo": "/assets/plugin-relic-logo.png",
+    "logo": "/assets/plugin-market.svg",
     "install": {
-      "npm": "将发布版 YuRelic-版本-obf.jar 放入服务端 plugins/ 目录",
-      "pnpm": "从 Yu 插件交流群或爱发电获取发布版 jar 后部署",
-      "yarn": "将发布版 jar 放入 plugins/ 后重启服务端"
+      "npm": "npm install yu-market",
+      "pnpm": "pnpm add yu-market",
+      "yarn": "yarn add yu-market"
     },
     "compatibility": {
-      "yu": "免费版 1.0.0 / 赞助版 1.0.13.31",
-      "node": "JDK 8 及以上，构建产物保持 Java 8 字节码",
-      "minecraft": "Bukkit/Spigot/Paper/Paper衍生/Youer/Arclight/其余混合端等 1.8.x - 1.26.x，已测试 1.21.1"
+      "yu": ">=1.0.0",
+      "node": ">=18.0.0",
+      "minecraft": "1.20 - 1.21"
     },
     "links": {
-      "docs": "/plugins/items/yu-relic/",
-      "github": "https://github.com/vicuna-main/YuRelicIssueReport",
-      "raw": "/raw/plugins/yu-relic.llm.md"
+      "docs": "/plugins/items/yu-market/",
+      "github": "https://github.com/yu-plugins/yu-market",
+      "raw": "/raw/plugins/yu-market.md"
     },
     "bstats": {
-      "enabled": true,
-      "pluginId": 31462,
-      "pluginName": "YuRelic",
+      "enabled": false,
       "software": "bukkit"
     },
     "showcase": {
@@ -285,33 +368,30 @@
     "ads": {
       "enabled": true,
       "slots": [
-        "plugin.detail.sidebar",
-        "plugin.detail.bottom"
+        "plugin.detail.sidebar"
       ]
     },
     "security": {
       "permissions": [
-        "yurelic.use",
-        "yurelic.open",
-        "yurelic.storage",
-        "yurelic.reload",
-        "yurelic.diagnose"
+        "read-config",
+        "write-data",
+        "economy-access"
       ],
-      "network": true,
+      "network": false,
       "fileSystem": true
     },
     "updatedAt": "2026-05-31",
-    "featured": true,
+    "featured": false,
     "author": {
-      "name": "Vicuna",
+      "name": "Yu Plugin Team",
       "url": "https://github.com/vicuna-main"
     },
-    "banner": "/assets/plugin-relic-banner.png",
+    "banner": "/assets/plugin-market.svg",
     "hero": {
-      "background": "/assets/plugin-relic-banner.png",
-      "accent": "#8b5cf6",
-      "headline": "YuRelic 灵器成长 RPG 插件",
-      "summary": "把武器、防具、工具和饰品培养成可成长、可传承、可跨服追踪的灵器体系。"
+      "background": "/assets/plugin-market.svg",
+      "accent": "#eab308",
+      "headline": "Yu Market 交易市场插件",
+      "summary": "为服务器提供玩家市场、商品上架、交易税率与经济系统联动能力。"
     }
   }
 ]

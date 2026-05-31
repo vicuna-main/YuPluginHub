@@ -1,0 +1,82 @@
+{
+  "slug": "yupay",
+  "name": "YuPay",
+  "title": "YuPay 直连收款赞助插件",
+  "description": "面向 Minecraft 服务器的微信支付与支付宝直连赞助插件，无中间商，官方通道费率仅 0.2%-0.6%，如需永久 0.2% 费率请联系作者。",
+  "category": "economy",
+  "tags": [
+    "支付",
+    "赞助",
+    "微信支付",
+    "支付宝",
+    "卡密",
+    "退款"
+  ],
+  "version": "1.5.0.0",
+  "status": "stable",
+  "availability": [
+    "free_use"
+  ],
+  "logo": "/assets/yupay/logo.png",
+  "install": {
+    "npm": "将发布版 YuPay-版本.jar 放入服务端 plugins/ 目录",
+    "pnpm": "首次启动后在 plugins/YuPay/config.yml 填写微信支付或支付宝官方商户参数",
+    "yarn": "配置公网回调地址后重启服务端，并使用 /yp health 检查状态"
+  },
+  "compatibility": {
+    "yu": "独立 Bukkit 插件，可与 Vault、PlayerPoints、PlaceholderAPI、ProtocolLib 联动",
+    "node": "JDK 8 及以上，兼容 Java 8 运行环境",
+    "minecraft": "适配 Bukkit/Spigot/Paper 及常见衍生端，最低兼容 Spigot API 1.8"
+  },
+  "links": {
+    "docs": "/plugins/items/yupay/",
+    "github": "https://github.com/vicuna-main/YuPayIssueReport",
+    "raw": "/raw/plugins/yupay.llm.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 30320,
+    "pluginName": "YuPay",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": [
+      "plugin.detail.sidebar",
+      "plugin.detail.bottom"
+    ]
+  },
+  "security": {
+    "permissions": [
+      "yupay.command.pay",
+      "yupay.command.history",
+      "yupay.command.code",
+      "yupay.refund.request",
+      "yupay.admin"
+    ],
+    "network": true,
+    "fileSystem": true
+  },
+  "updatedAt": "2026-06-01",
+  "featured": true,
+  "author": {
+    "name": "Vicuna",
+    "url": "https://github.com/vicuna-main"
+  },
+  "banner": "/assets/yupay/banner.png",
+  "hero": {
+    "background": "/assets/yupay/banner.png",
+    "accent": "#a3e635",
+    "headline": "YuPay 直连收款赞助插件",
+    "summary": "微信支付与支付宝官方商户直连，省掉中间商抽成；费率仅 0.2%-0.6%，需要永久 0.2% 费率可联系作者。"
+  }
+}
