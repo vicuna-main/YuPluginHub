@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-label="Yu Plugin Hub console preview">
+  <rect width="1200" height="680" fill="#123326"/>
+  <g opacity=".22">
+    <path d="M0 520c166-58 324-76 474-54 183 27 322 2 450-76 97-59 189-79 276-60v350H0z" fill="#22c55e"/>
+    <path d="M0 100c158 52 311 65 459 39 134-23 248-9 341 42 148 82 281 83 400 4V0H0z" fill="#14b8a6"/>
+  </g>
+  <g transform="translate(110 96)">
+    <rect x="0" y="0" width="410" height="260" rx="18" fill="#f8fafc" opacity=".92"/>
+    <rect x="24" y="28" width="130" height="16" rx="8" fill="#14532d"/>
+    <rect x="24" y="66" width="360" height="18" rx="9" fill="#dbeafe"/>
+    <rect x="24" y="102" width="182" height="92" rx="12" fill="#dcfce7"/>
+    <rect x="224" y="102" width="160" height="92" rx="12" fill="#fef3c7"/>
+    <rect x="24" y="216" width="280" height="16" rx="8" fill="#cbd5e1"/>
+  </g>
+  <g transform="translate(610 168)">
+    <rect x="0" y="0" width="430" height="310" rx="18" fill="#f8fafc" opacity=".9"/>
+    <circle cx="58" cy="60" r="28" fill="#16a34a"/>
+    <rect x="104" y="42" width="210" height="16" rx="8" fill="#14532d"/>
+    <rect x="104" y="72" width="270" height="12" rx="6" fill="#94a3b8"/>
+    <rect x="38" y="126" width="354" height="18" rx="9" fill="#bbf7d0"/>
+    <rect x="38" y="172" width="278" height="18" rx="9" fill="#bfdbfe"/>
+    <rect x="38" y="218" width="318" height="18" rx="9" fill="#fed7aa"/>
+    <rect x="38" y="264" width="190" height="18" rx="9" fill="#e2e8f0"/>
+  </g>
+  <g transform="translate(222 392)" opacity=".92">
+    <rect x="0" y="0" width="322" height="164" rx="16" fill="#f8fafc"/>
+    <rect x="24" y="30" width="120" height="14" rx="7" fill="#0f766e"/>
+    <rect x="24" y="72" width="274" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="24" y="100" width="230" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="24" y="128" width="176" height="12" rx="6" fill="#cbd5e1"/>
+  </g>
+</svg>

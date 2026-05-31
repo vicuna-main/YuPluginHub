@@ -1,0 +1,121 @@
+[
+  {
+    "id": "dreamland-mc",
+    "name": "梦境大陆",
+    "description": "长期开放的生存 RPG 服务器，使用 Yu Protect 和 Yu Market 管理领地与交易。",
+    "address": "play.dreamland.local",
+    "port": 25565,
+    "version": "1.20.1",
+    "type": "survival",
+    "qqGroup": "123456789",
+    "website": "/servers/dreamland-mc/",
+    "logo": "/assets/server-dream.svg",
+    "banner": "/assets/server-dream-banner.svg",
+    "tags": [
+      "生存",
+      "RPG",
+      "长期服"
+    ],
+    "plugins": [
+      "yu-protect",
+      "yu-market"
+    ],
+    "featured": true,
+    "sponsored": false,
+    "verified": true,
+    "owner": {
+      "name": "Dreamland Team",
+      "contact": "QQ：764069075"
+    },
+    "createdAt": "2026-05-31",
+    "updatedAt": "2026-05-31",
+    "homepage": {
+      "title": "梦境大陆官网",
+      "background": "/assets/server-dream-banner.svg",
+      "layout": "banner-card",
+      "highlight": "官方网站入口与服务器展示卡片分离配置"
+    }
+  },
+  {
+    "id": "skynode",
+    "name": "SkyNode 空岛",
+    "description": "轻量空岛服务器，使用 Yu Auth 统一登录并接入插件统计展示。",
+    "address": "sky.skynode.local",
+    "port": 25565,
+    "version": "1.21",
+    "type": "skyblock",
+    "qqGroup": "987654321",
+    "website": "/servers/skynode/",
+    "logo": "/assets/server-sky.svg",
+    "banner": "/assets/server-sky-banner.svg",
+    "tags": [
+      "空岛",
+      "休闲",
+      "经济"
+    ],
+    "plugins": [
+      "yu-auth",
+      "yu-market"
+    ],
+    "featured": true,
+    "sponsored": true,
+    "verified": true,
+    "owner": {
+      "name": "SkyNode Team",
+      "contact": "QQ：764069075"
+    },
+    "createdAt": "2026-05-31",
+    "updatedAt": "2026-05-31",
+    "homepage": {
+      "title": "SkyNode 空岛官网",
+      "background": "/assets/server-sky-banner.svg",
+      "layout": "banner-card",
+      "highlight": "官方网站入口与服务器展示卡片分离配置"
+    }
+  },
+  {
+    "id": "yutay-era",
+    "name": "宇钛纪元",
+    "description": "长期开放的模组生存服务器，使用 Yu 插件管理 RPG、聊天、保险柜、随机传送和赞助体系。",
+    "address": "mc.yutay.cn",
+    "version": "1.21.1",
+    "type": "modded",
+    "qqGroup": "1011284597",
+    "website": "https://qm.qq.com/q/kWbmEBzbBC",
+    "logo": "/assets/server-yutay-logo.png",
+    "banner": "/assets/server-yutay-banner.png",
+    "tags": [
+      "模组服",
+      "Java服",
+      "生存",
+      "冒险",
+      "科技",
+      "魔法",
+      "建筑",
+      "长期开放",
+      "YuRelic",
+      "YuChat",
+      "YuRandomTeleport",
+      "YuPay",
+      "YuVault"
+    ],
+    "plugins": [
+      "yu-relic"
+    ],
+    "featured": true,
+    "sponsored": false,
+    "verified": true,
+    "owner": {
+      "name": "宇钛纪元运营组",
+      "contact": "QQ群：1011284597"
+    },
+    "createdAt": "2026-05-31",
+    "updatedAt": "2026-05-31",
+    "homepage": {
+      "title": "宇钛纪元",
+      "background": "/assets/server-yutay-banner.png",
+      "layout": "banner-card",
+      "highlight": "1.21.1 模组生存，服务器地址 mc.yutay.cn，QQ群 1011284597。"
+    }
+  }
+]

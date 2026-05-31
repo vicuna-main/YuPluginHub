@@ -1,0 +1,78 @@
+{
+  "slug": "yu-protect",
+  "name": "Yu Protect",
+  "title": "Yu Protect 领地保护插件",
+  "description": "提供领地、方块保护、成员权限与审计记录，适合长期生存服和 RPG 服务器。",
+  "category": "protection",
+  "tags": [
+    "领地",
+    "保护",
+    "审计",
+    "权限"
+  ],
+  "version": "1.3.0",
+  "status": "stable",
+  "availability": [
+    "free"
+  ],
+  "logo": "/assets/plugin-protect.svg",
+  "install": {
+    "npm": "npm install yu-protect",
+    "pnpm": "pnpm add yu-protect",
+    "yarn": "yarn add yu-protect"
+  },
+  "compatibility": {
+    "yu": ">=1.0.0",
+    "node": ">=18.0.0",
+    "minecraft": "1.19 - 1.21"
+  },
+  "links": {
+    "docs": "/plugins/items/yu-protect/",
+    "github": "https://github.com/yu-plugins/yu-protect",
+    "raw": "/raw/plugins/yu-protect.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 23456,
+    "pluginName": "YuProtect",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": [
+      "plugin.detail.sidebar",
+      "plugin.detail.bottom"
+    ]
+  },
+  "security": {
+    "permissions": [
+      "read-config",
+      "write-data",
+      "manage-claims"
+    ],
+    "network": false,
+    "fileSystem": true
+  },
+  "updatedAt": "2026-05-31",
+  "featured": true,
+  "author": {
+    "name": "Yu Plugin Team",
+    "url": "https://github.com/vicuna-main"
+  },
+  "banner": "/assets/plugin-protect.svg",
+  "hero": {
+    "background": "/assets/plugin-protect.svg",
+    "accent": "#22c55e",
+    "headline": "Yu Protect 领地保护插件",
+    "summary": "提供领地、方块保护、成员权限与审计记录，适合长期生存服和 RPG 服务器。"
+  }
+}

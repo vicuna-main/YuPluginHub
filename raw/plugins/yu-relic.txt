@@ -1,0 +1,12 @@
+ YuRelic
+
+ 插件用途
+面向 Minecraft 服务器的灵器成长 RPG 插件，覆盖开光、灵契、成长、突破、器魂、饰品、掉落、跨服存储、防复制、诊断 GUI、PlaceholderAPI 与 Bukkit 事件扩展。
+
+ 分类与标签
+分类: rpg
+标签: 灵器, RPG, 成长, 跨服, GUI, API
+
+ 安装
+bash
+从 Yu 插件交流群或爱发电获取发布版 jar 后部署

@@ -1,0 +1,64 @@
+{
+  "slug": "your-plugin-slug",
+  "name": "Your Plugin",
+  "title": "Your Plugin 插件标题",
+  "description": "一句话说明插件用途，建议不超过 220 字。",
+  "category": "tools",
+  "tags": ["工具", "示例"],
+  "version": "1.0.0",
+  "status": "stable",
+  "logo": "/assets/your-plugin-logo.svg",
+  "banner": "/assets/your-plugin-banner.svg",
+  "author": {
+    "name": "作者名称",
+    "url": "https://example.com",
+    "avatar": "/assets/your-avatar.png"
+  },
+  "hero": {
+    "background": "/assets/your-plugin-banner.svg",
+    "accent": "#f97316",
+    "headline": "详情页主标题",
+    "summary": "详情页主视觉简介。"
+  },
+  "install": {
+    "npm": "npm install your-plugin",
+    "pnpm": "pnpm add your-plugin",
+    "yarn": "yarn add your-plugin"
+  },
+  "compatibility": {
+    "yu": ">=1.0.0",
+    "node": ">=18.0.0",
+    "minecraft": "1.20 - 1.21"
+  },
+  "links": {
+    "docs": "/plugins/items/your-plugin-slug/",
+    "github": "https://github.com/your-name/your-plugin",
+    "raw": "/raw/plugins/your-plugin-slug.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 30320,
+    "pluginName": "YourPlugin",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": ["plugin.detail.sidebar"]
+  },
+  "security": {
+    "permissions": [],
+    "network": false,
+    "fileSystem": false
+  },
+  "updatedAt": "2026-05-31",
+  "featured": false
+}

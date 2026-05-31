@@ -1,0 +1,21 @@
+# Yu Plugin Hub
+
+Yu Plugin Hub 是 Yu 插件生态的文档、插件索引、统计与服务器展示站。
+
+## Main Sections
+- Plugins: /plugins/
+- Guide: /guide/
+- Security: /security/
+- Servers: /servers/
+- Stats: /stats/
+
+## Plugin Index
+- Yu Auth: /plugins/items/yu-auth/
+- Yu Market: /plugins/items/yu-market/
+- Yu Protect: /plugins/items/yu-protect/
+- YuRelic: /plugins/items/yu-relic/
+
+## Raw Data
+- Plugin JSON: /data/plugins.json
+- bStats JSON: /data/bstats.json
+- Server Showcase JSON: /data/servers.json

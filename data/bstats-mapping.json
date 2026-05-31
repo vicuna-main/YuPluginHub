@@ -1,0 +1,50 @@
+{
+  "yu-auth": {
+    "enabled": true,
+    "pluginId": 12345,
+    "software": "bukkit",
+    "charts": {
+      "servers": "servers",
+      "players": "players",
+      "pluginVersion": "plugin_version",
+      "serverVersion": "server_version"
+    },
+    "pluginName": "YuAuth"
+  },
+  "yu-protect": {
+    "enabled": true,
+    "pluginId": 23456,
+    "software": "bukkit",
+    "charts": {
+      "servers": "servers",
+      "players": "players",
+      "pluginVersion": "plugin_version",
+      "serverVersion": "server_version"
+    },
+    "pluginName": "YuProtect"
+  },
+  "yu-market": {
+    "enabled": true,
+    "pluginId": 30320,
+    "pluginName": "Yupay",
+    "software": "bukkit",
+    "charts": {
+      "servers": "servers",
+      "players": "players",
+      "pluginVersion": "plugin_version",
+      "serverVersion": "server_version"
+    }
+  },
+  "yu-relic": {
+    "enabled": true,
+    "pluginId": 31462,
+    "pluginName": "YuRelic",
+    "software": "bukkit",
+    "charts": {
+      "servers": "servers",
+      "players": "players",
+      "pluginVersion": "plugin_version",
+      "serverVersion": "server_version"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "your-sponsor-id",
+  "slot": "home.hero.bottom",
+  "type": "sponsor",
+  "title": "赞助商或推广标题",
+  "description": "说明展示内容、服务优势或合作范围。",
+  "image": "/assets/your-sponsor-banner.svg",
+  "logo": "/assets/your-sponsor-logo.svg",
+  "url": "https://example.com",
+  "text": "短推广文案。",
+  "cta": "查看详情",
+  "contact": "QQ：764069075",
+  "display": {
+    "background": "/assets/your-sponsor-banner.svg",
+    "style": "image-first",
+    "badge": "赞助商"
+  },
+  "enabled": true,
+  "priority": 100,
+  "tags": ["sponsor", "minecraft"],
+  "target": {
+    "categories": ["tools"],
+    "plugins": ["yu-market"],
+    "platforms": ["desktop"]
+  },
+  "rel": "sponsored"
+}

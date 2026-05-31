@@ -1,0 +1,77 @@
+{
+  "slug": "yu-auth",
+  "name": "Yu Auth",
+  "title": "Yu Auth 登录与鉴权插件",
+  "description": "为 Yu 服务器提供登录、鉴权、会话令牌与权限组能力，适合需要统一身份入口的服务器。",
+  "category": "auth",
+  "tags": [
+    "登录",
+    "鉴权",
+    "权限",
+    "安全"
+  ],
+  "version": "1.4.0",
+  "status": "stable",
+  "availability": [
+    "free"
+  ],
+  "logo": "/assets/plugin-auth.svg",
+  "install": {
+    "npm": "npm install yu-auth",
+    "pnpm": "pnpm add yu-auth",
+    "yarn": "yarn add yu-auth"
+  },
+  "compatibility": {
+    "yu": ">=1.0.0",
+    "node": ">=18.0.0",
+    "minecraft": "1.19 - 1.21"
+  },
+  "links": {
+    "docs": "/plugins/items/yu-auth/",
+    "github": "https://github.com/yu-plugins/yu-auth",
+    "raw": "/raw/plugins/yu-auth.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 12345,
+    "pluginName": "YuAuth",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": [
+      "plugin.detail.sidebar",
+      "plugin.detail.bottom"
+    ]
+  },
+  "security": {
+    "permissions": [
+      "read-config",
+      "write-data"
+    ],
+    "network": false,
+    "fileSystem": true
+  },
+  "updatedAt": "2026-05-31",
+  "featured": true,
+  "author": {
+    "name": "Yu Plugin Team",
+    "url": "https://github.com/vicuna-main"
+  },
+  "banner": "/assets/plugin-auth.svg",
+  "hero": {
+    "background": "/assets/plugin-auth.svg",
+    "accent": "#f97316",
+    "headline": "Yu Auth 登录与鉴权插件",
+    "summary": "为 Yu 服务器提供登录、鉴权、会话令牌与权限组能力，适合需要统一身份入口的服务器。"
+  }
+}

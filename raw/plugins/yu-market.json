@@ -1,0 +1,77 @@
+{
+  "slug": "yu-market",
+  "name": "Yu Market",
+  "title": "Yu Market 交易市场插件",
+  "description": "为服务器提供玩家市场、商品上架、交易税率与经济系统联动能力。",
+  "category": "economy",
+  "tags": [
+    "市场",
+    "经济",
+    "交易",
+    "商品"
+  ],
+  "version": "0.9.2",
+  "status": "beta",
+  "availability": [
+    "free"
+  ],
+  "logo": "/assets/plugin-market.svg",
+  "install": {
+    "npm": "npm install yu-market",
+    "pnpm": "pnpm add yu-market",
+    "yarn": "yarn add yu-market"
+  },
+  "compatibility": {
+    "yu": ">=1.0.0",
+    "node": ">=18.0.0",
+    "minecraft": "1.20 - 1.21"
+  },
+  "links": {
+    "docs": "/plugins/items/yu-market/",
+    "github": "https://github.com/yu-plugins/yu-market",
+    "raw": "/raw/plugins/yu-market.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 30320,
+    "pluginName": "Yupay",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": [
+      "plugin.detail.sidebar"
+    ]
+  },
+  "security": {
+    "permissions": [
+      "read-config",
+      "write-data",
+      "economy-access"
+    ],
+    "network": false,
+    "fileSystem": true
+  },
+  "updatedAt": "2026-05-31",
+  "featured": false,
+  "author": {
+    "name": "Yu Plugin Team",
+    "url": "https://github.com/vicuna-main"
+  },
+  "banner": "/assets/plugin-market.svg",
+  "hero": {
+    "background": "/assets/plugin-market.svg",
+    "accent": "#eab308",
+    "headline": "Yu Market 交易市场插件",
+    "summary": "为服务器提供玩家市场、商品上架、交易税率与经济系统联动能力。"
+  }
+}

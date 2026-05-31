@@ -1,0 +1,83 @@
+{
+  "slug": "yu-relic",
+  "name": "YuRelic",
+  "title": "YuRelic 灵器成长 RPG 插件",
+  "description": "面向 Minecraft 服务器的灵器成长 RPG 插件，覆盖开光、灵契、成长、突破、器魂、饰品、掉落、跨服存储、防复制、诊断 GUI、PlaceholderAPI 与 Bukkit 事件扩展。",
+  "category": "rpg",
+  "tags": [
+    "灵器",
+    "RPG",
+    "成长",
+    "跨服",
+    "GUI",
+    "API"
+  ],
+  "version": "1.0.13.31",
+  "status": "stable",
+  "availability": [
+    "paid",
+    "trial"
+  ],
+  "logo": "/assets/plugin-relic-logo.png",
+  "install": {
+    "npm": "将发布版 YuRelic-版本-obf.jar 放入服务端 plugins/ 目录",
+    "pnpm": "从 Yu 插件交流群或爱发电获取发布版 jar 后部署",
+    "yarn": "将发布版 jar 放入 plugins/ 后重启服务端"
+  },
+  "compatibility": {
+    "yu": "免费版 1.0.0 / 赞助版 1.0.13.31",
+    "node": "JDK 8 及以上，构建产物保持 Java 8 字节码",
+    "minecraft": "Bukkit/Spigot/Paper/Paper衍生/Youer/Arclight/其余混合端等 1.8.x - 1.26.x，已测试 1.21.1"
+  },
+  "links": {
+    "docs": "/plugins/items/yu-relic/",
+    "github": "https://github.com/vicuna-main/YuRelicIssueReport",
+    "raw": "/raw/plugins/yu-relic.llm.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 31462,
+    "pluginName": "YuRelic",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": [
+      "plugin.detail.sidebar",
+      "plugin.detail.bottom"
+    ]
+  },
+  "security": {
+    "permissions": [
+      "yurelic.use",
+      "yurelic.open",
+      "yurelic.storage",
+      "yurelic.reload",
+      "yurelic.diagnose"
+    ],
+    "network": true,
+    "fileSystem": true
+  },
+  "updatedAt": "2026-05-31",
+  "featured": true,
+  "author": {
+    "name": "Vicuna",
+    "url": "https://github.com/vicuna-main"
+  },
+  "banner": "/assets/plugin-relic-banner.png",
+  "hero": {
+    "background": "/assets/plugin-relic-banner.png",
+    "accent": "#8b5cf6",
+    "headline": "YuRelic 灵器成长 RPG 插件",
+    "summary": "把武器、防具、工具和饰品培养成可成长、可传承、可跨服追踪的灵器体系。"
+  }
+}

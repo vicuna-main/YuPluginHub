@@ -1,0 +1,119 @@
+[
+  {
+    "id": "cloud-green-001",
+    "slot": "plugin.detail.sidebar",
+    "type": "cloud",
+    "title": "高性能云服务器推荐",
+    "description": "适合 Minecraft 生产服、测试服与插件开发环境部署。",
+    "image": "/assets/ad-cloud.svg",
+    "url": "/sponsor/partners/cloud-green/",
+    "cta": "查看云服务",
+    "enabled": true,
+    "priority": 100,
+    "tags": [
+      "cloud",
+      "minecraft",
+      "server"
+    ],
+    "rel": "sponsored",
+    "contact": "QQ：100100100",
+    "display": {
+      "background": "/assets/ad-cloud.svg",
+      "style": "image-first",
+      "badge": "合作伙伴"
+    }
+  },
+  {
+    "id": "hosting-partner-001",
+    "slot": "home.hero.bottom",
+    "type": "sponsor",
+    "title": "NodeForge 托管服务",
+    "description": "面向插件测试服与中小型 Minecraft 社区的低延迟托管方案，提供独立实例、自动备份和 Java 版本切换。",
+    "image": "/assets/ad-cloud.svg",
+    "url": "/sponsor/partners/nodeforge/",
+    "cta": "查看托管方案",
+    "enabled": true,
+    "priority": 120,
+    "tags": [
+      "hosting",
+      "minecraft",
+      "server"
+    ],
+    "rel": "sponsored",
+    "contact": "QQ：200200200",
+    "display": {
+      "background": "/assets/ad-cloud.svg",
+      "style": "image-first",
+      "badge": "赞助商"
+    }
+  },
+  {
+    "id": "plugin-tooling-001",
+    "slot": "plugin.detail.bottom",
+    "type": "plugin",
+    "title": "PluginLab 调试工具",
+    "description": "为插件开发者提供配置校验、日志聚合和测试服自动部署，适合维护多个 Yu 插件的团队。",
+    "image": "/assets/ad-sponsor.svg",
+    "url": "/sponsor/partners/pluginlab/",
+    "cta": "查看工具",
+    "enabled": true,
+    "priority": 90,
+    "tags": [
+      "developer",
+      "tooling"
+    ],
+    "rel": "sponsored",
+    "contact": "QQ：300300300",
+    "display": {
+      "background": "/assets/ad-sponsor.svg",
+      "style": "image-first",
+      "badge": "合作伙伴"
+    }
+  },
+  {
+    "id": "server-feature-001",
+    "slot": "servers.top",
+    "type": "mc-server",
+    "title": "服务器招募展示位",
+    "description": "展示正在使用 Yu 插件的优质服务器，支持按插件与类型定向曝光。",
+    "image": "/assets/ad-server.svg",
+    "url": "/sponsor/partners/server-feature/",
+    "cta": "查看展示位",
+    "enabled": true,
+    "priority": 80,
+    "tags": [
+      "server",
+      "promotion"
+    ],
+    "rel": "sponsored",
+    "contact": "QQ：764069075",
+    "display": {
+      "background": "/assets/ad-server.svg",
+      "style": "image-first",
+      "badge": "合作伙伴"
+    }
+  },
+  {
+    "id": "sponsor-tooling-001",
+    "slot": "home.hero.bottom",
+    "type": "sponsor",
+    "title": "赞助 Yu 插件生态",
+    "description": "支持插件文档、统计同步、服务器展示和推广位持续维护。",
+    "image": "/assets/ad-sponsor.svg",
+    "url": "/sponsor/partners/yu-ecosystem/",
+    "cta": "查看赞助方案",
+    "enabled": true,
+    "priority": 90,
+    "tags": [
+      "sponsor",
+      "ecosystem"
+    ],
+    "rel": "sponsored",
+    "contact": "QQ：764069075",
+    "display": {
+      "background": "/assets/ad-sponsor.svg",
+      "style": "image-first",
+      "badge": "赞助商"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "id": "your-server-id",
+  "name": "服务器名称",
+  "description": "一句话说明服务器特色，建议不超过 220 字。",
+  "address": "play.example.com",
+  "port": 25565,
+  "version": "1.21",
+  "type": "survival",
+  "qqGroup": "123456789",
+  "website": "https://example.com",
+  "logo": "/assets/your-server-logo.svg",
+  "banner": "/assets/your-server-banner.svg",
+  "homepage": {
+    "title": "服务器官网标题",
+    "background": "/assets/your-server-banner.svg",
+    "layout": "banner-card",
+    "highlight": "服务器首页亮点文案"
+  },
+  "tags": ["生存", "经济", "社区"],
+  "plugins": ["yu-auth", "yu-market"],
+  "featured": true,
+  "sponsored": false,
+  "verified": false,
+  "owner": {
+    "name": "运营方名称",
+    "contact": "QQ：764069075"
+  },
+  "createdAt": "2026-05-31",
+  "updatedAt": "2026-05-31"
+}
