@@ -99,7 +99,8 @@
     "version": "1.5.0.0",
     "status": "stable",
     "availability": [
-      "free_use"
+      "free",
+      "paid"
     ],
     "logo": "/assets/yupay/logo.png",
     "install": {
