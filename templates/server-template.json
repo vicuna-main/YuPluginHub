@@ -17,7 +17,7 @@
     "highlight": "服务器首页亮点文案"
   },
   "tags": ["生存", "经济", "社区"],
-  "plugins": ["yu-auth", "yu-market"],
+  "plugins": ["yu-relic", "yupay"],
   "featured": true,
   "sponsored": false,
   "verified": false,

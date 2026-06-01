@@ -1,0 +1,87 @@
+{
+  "slug": "yu-random-teleport",
+  "name": "YuRandomTeleport",
+  "title": "YuRandomTeleport 随机传送插件",
+  "description": "适配 Minecraft 1.8.x-1.26.x 的 Spigot、Paper、Paper 衍生端与 Mohist、Arclight、Youer 等混合端随机传送插件。",
+  "category": "tools",
+  "tags": [
+    "随机传送",
+    "RTP",
+    "传送",
+    "Vault",
+    "跨版本",
+    "混合端",
+    "Mohist",
+    "Arclight",
+    "Youer",
+    "工具"
+  ],
+  "version": "1.1.2.2",
+  "status": "stable",
+  "availability": [
+    "free"
+  ],
+  "logo": "/assets/plugin-random-teleport-logo.png",
+  "install": {
+    "npm": "将构建出的 YuRandomTeleport-版本-all.jar 放入服务端 plugins/ 目录",
+    "pnpm": "首次启动后编辑 plugins/YuRandomTeleport/config.yml 与 messages.yml",
+    "yarn": "需要经济扣费时安装 Vault 与经济插件后重启服务端"
+  },
+  "compatibility": {
+    "yu": "独立 Bukkit 插件，无 Yu 前置要求",
+    "node": "Java 8 及以上运行环境",
+    "minecraft": "Minecraft 1.8.x-1.26.x；适配 Spigot、Paper、Paper 衍生端，以及 Mohist、Arclight、Youer 等 Bukkit API 混合端"
+  },
+  "links": {
+    "docs": "/plugins/items/yu-random-teleport/",
+    "raw": "/raw/plugins/yu-random-teleport.llm.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 30589,
+    "pluginName": "YuRandomTeleport",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": [
+      "plugin.detail.sidebar",
+      "plugin.detail.bottom"
+    ]
+  },
+  "security": {
+    "permissions": [
+      "yurtp.use",
+      "yurtp.teleport.others",
+      "yurtp.reload",
+      "yurtp.bypass.cooldown",
+      "yurtp.bypass.cooldown.others",
+      "yurtp.bypass.cost",
+      "yurtp.bypass.wait"
+    ],
+    "network": true,
+    "fileSystem": true
+  },
+  "updatedAt": "2026-06-01",
+  "featured": false,
+  "author": {
+    "name": "Vicuna",
+    "url": "https://github.com/vicuna-main"
+  },
+  "banner": "/assets/plugin-random-teleport-logo.png",
+  "hero": {
+    "background": "/assets/plugin-random-teleport-logo.png",
+    "accent": "#22c55e",
+    "headline": "YuRandomTeleport 随机传送插件",
+    "summary": "主打 1.8.x-1.26.x 跨版本与 Spigot、Paper、Paper 衍生、Mohist、Arclight、Youer 等混合端适配。"
+  }
+}

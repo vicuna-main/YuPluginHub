@@ -1,0 +1,105 @@
+{
+  "slug": "yu-chat",
+  "name": "YuChat",
+  "title": "YuChat 聊天称呼与昵称插件",
+  "description": "适配 Minecraft 1.8.x-1.26.x 的 Spigot、Paper、Paper 衍生端与 Mohist、Arclight、Youer 等混合端聊天称呼、昵称、前后缀、悬浮消息和显示同步插件。",
+  "category": "tools",
+  "tags": [
+    "聊天",
+    "称呼",
+    "昵称",
+    "前后缀",
+    "PlaceholderAPI",
+    "LuckPerms",
+    "Vault",
+    "PlayerPoints",
+    "SQLite",
+    "MySQL",
+    "跨版本",
+    "混合端",
+    "Mohist",
+    "Arclight",
+    "Youer",
+    "工具"
+  ],
+  "version": "1.1.0.0",
+  "status": "stable",
+  "availability": [
+    "free"
+  ],
+  "logo": "/assets/yu-chat/logo.png",
+  "install": {
+    "npm": "将构建出的 YuChat-版本-debug.jar 或 YuChat-版本-obf.jar 放入服务端 plugins/ 目录",
+    "pnpm": "首次启动后编辑 plugins/YuChat/config.yml、messages.yml、gui.yml、titles.yml 与 effects.yml",
+    "yarn": "需要经济、点券或权限显示时安装 Vault、PlayerPoints、LuckPerms、PlaceholderAPI 后重启服务端"
+  },
+  "compatibility": {
+    "yu": "独立 Bukkit 插件，无 Yu 前置要求；可选联动 PlaceholderAPI、LuckPerms、Vault、PlayerPoints",
+    "node": "Java 8 及以上运行环境",
+    "minecraft": "Minecraft 1.8.x-1.26.x；适配 Spigot、Paper、Paper 衍生端，以及 Mohist、Arclight、Youer 等 Bukkit API 混合端"
+  },
+  "links": {
+    "docs": "/plugins/items/yu-chat/",
+    "raw": "/raw/plugins/yu-chat.llm.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 31412,
+    "pluginName": "YuChat",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": [
+      "plugin.detail.sidebar",
+      "plugin.detail.bottom"
+    ]
+  },
+  "security": {
+    "permissions": [
+      "yuchat.use",
+      "yuchat.gui",
+      "yuchat.nickname.use",
+      "yuchat.signature.use",
+      "yuchat.deathmessage.use",
+      "yuchat.signature.bypass",
+      "yuchat.deathmessage.bypass",
+      "yuchat.chat.color",
+      "yuchat.chat.minimessage",
+      "yuchat.chat.hex",
+      "yuchat.chat.placeholder",
+      "yuchat.message.color.*",
+      "yuchat.nickname.change",
+      "yuchat.nickname.input-color",
+      "yuchat.format.*",
+      "yuchat.effect.*",
+      "yuchat.title.*",
+      "yuchat.admin",
+      "yuchat.reload"
+    ],
+    "network": true,
+    "fileSystem": true
+  },
+  "updatedAt": "2026-06-01",
+  "featured": false,
+  "author": {
+    "name": "Vicuna",
+    "url": "https://github.com/vicuna-main"
+  },
+  "banner": "/assets/yu-chat/logo.png",
+  "hero": {
+    "background": "/assets/yu-chat/logo.png",
+    "accent": "#32e6a0",
+    "headline": "YuChat 聊天称呼与昵称插件",
+    "summary": "面向 1.8.x-1.26.x 与常见混合端的聊天显示插件，整合称呼、昵称、LuckPerms 前后缀、PAPI 变量、经济购买、悬浮消息和 TAB/头顶名同步。"
+  }
+}

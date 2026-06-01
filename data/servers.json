@@ -27,7 +27,9 @@
     ],
     "plugins": [
       "yu-relic",
-      "yupay"
+      "yupay",
+      "yu-random-teleport",
+      "yu-vault"
     ],
     "featured": true,
     "sponsored": false,
@@ -48,7 +50,7 @@
   {
     "id": "dreamland-mc",
     "name": "梦境大陆",
-    "description": "长期开放的生存 RPG 服务器，使用 Yu Protect 和 Yu Market 管理领地与交易。",
+    "description": "长期开放的生存 RPG 服务器，使用 YuRelic 和 YuPay 管理成长玩法与赞助体系。",
     "address": "play.dreamland.local",
     "port": 25565,
     "version": "1.20.1",
@@ -63,8 +65,8 @@
       "长期服"
     ],
     "plugins": [
-      "yu-protect",
-      "yu-market"
+      "yu-relic",
+      "yupay"
     ],
     "featured": true,
     "sponsored": false,
@@ -85,7 +87,7 @@
   {
     "id": "skynode",
     "name": "SkyNode 空岛",
-    "description": "轻量空岛服务器，使用 Yu Auth 统一登录并接入插件统计展示。",
+    "description": "轻量空岛服务器，使用 YuChat 与 YuRandomTeleport 管理聊天展示和随机传送。",
     "address": "sky.skynode.local",
     "port": 25565,
     "version": "1.21",
@@ -100,8 +102,8 @@
       "经济"
     ],
     "plugins": [
-      "yu-auth",
-      "yu-market"
+      "yu-chat",
+      "yu-random-teleport"
     ],
     "featured": true,
     "sponsored": true,

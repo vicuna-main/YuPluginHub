@@ -1,0 +1,94 @@
+{
+  "slug": "yu-vault",
+  "name": "YuVault",
+  "title": "YuVault 跨服虚拟保险柜插件",
+  "description": "适配 Minecraft 1.8.x-1.26.x 的 Spigot、Paper、Paper 衍生端与 Mohist、Arclight、Youer 等混合端虚拟保险柜插件，支持 SQLite/MySQL、权限动态槽位、回收箱和 GUI 管理。",
+  "category": "tools",
+  "tags": [
+    "保险柜",
+    "虚拟仓库",
+    "跨服",
+    "MySQL",
+    "SQLite",
+    "GUI",
+    "跨版本",
+    "混合端",
+    "Mohist",
+    "Arclight",
+    "Youer",
+    "工具"
+  ],
+  "version": "1.1.0.0",
+  "status": "stable",
+  "availability": [
+    "free"
+  ],
+  "logo": "/assets/yu-vault/logo.png",
+  "install": {
+    "npm": "将构建出的 YuVault-版本-all.jar 或发布版 jar 放入服务端 plugins/ 目录",
+    "pnpm": "首次启动后编辑 plugins/YuVault/config.yml 与 messages.yml",
+    "yarn": "跨服共享时将 storage.type 改为 mysql 并填写 MySQL 连接参数"
+  },
+  "compatibility": {
+    "yu": "独立 Bukkit 插件，无 Yu 前置要求；可配合 LuckPerms 等权限插件控制容量",
+    "node": "Java 8 及以上运行环境",
+    "minecraft": "Minecraft 1.8.x-1.26.x；适配 Spigot、Paper、Paper 衍生端，以及 Mohist、Arclight、Youer 等 Bukkit API 混合端"
+  },
+  "links": {
+    "docs": "/plugins/items/yu-vault/",
+    "raw": "/raw/plugins/yu-vault.llm.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 31043,
+    "pluginName": "YuVault",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": [
+      "plugin.detail.sidebar",
+      "plugin.detail.bottom"
+    ]
+  },
+  "security": {
+    "permissions": [
+      "yuvault.use",
+      "yuvault.admin",
+      "yuvault.reload",
+      "yuvault.bypass.world",
+      "yuvault.bypass.world.<world>",
+      "yuvault.bypass.item",
+      "yuvault.slots.*",
+      "yuvault.slots.<id>.<rows>",
+      "yuvault.vaults.*",
+      "yuvault.vaults.<count>",
+      "yuvault.reclaimed",
+      "yuvault.adminreclaimed"
+    ],
+    "network": true,
+    "fileSystem": true
+  },
+  "updatedAt": "2026-06-01",
+  "featured": false,
+  "author": {
+    "name": "Vicuna",
+    "url": "https://github.com/vicuna-main"
+  },
+  "banner": "/assets/yu-vault/logo.png",
+  "hero": {
+    "background": "/assets/yu-vault/logo.png",
+    "accent": "#facc15",
+    "headline": "YuVault 跨服虚拟保险柜插件",
+    "summary": "面向 1.8.x-1.26.x 与常见混合端的虚拟保险柜，支持 SQLite/MySQL、动态权限容量、物品回收箱和可配置 GUI。"
+  }
+}

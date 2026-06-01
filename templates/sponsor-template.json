@@ -20,7 +20,7 @@
   "tags": ["sponsor", "minecraft"],
   "target": {
     "categories": ["tools"],
-    "plugins": ["yu-market"],
+    "plugins": ["yupay"],
     "platforms": ["desktop"]
   },
   "rel": "sponsored"

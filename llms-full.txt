@@ -30,48 +30,48 @@
 
 ---
 
-# Yu Auth
+# YuRandomTeleport
 
 ## 插件用途
-为 Yu 服务器提供登录、鉴权、会话令牌与权限组能力，适合需要统一身份入口的服务器。
+适配 Minecraft 1.8.x-1.26.x 的 Spigot、Paper、Paper 衍生端与 Mohist、Arclight、Youer 等混合端随机传送插件。
 
 ## 分类与标签
-分类: auth
-标签: 登录, 鉴权, 权限, 安全
+分类: tools
+标签: 随机传送, RTP, 传送, Vault, 跨版本, 混合端, Mohist, Arclight, Youer, 工具
 
 ## 安装
 ```bash
-pnpm add yu-auth
+首次启动后编辑 plugins/YuRandomTeleport/config.yml 与 messages.yml
 ```
 
 ---
 
-# Yu Protect
+# YuVault
 
 ## 插件用途
-提供领地、方块保护、成员权限与审计记录，适合长期生存服和 RPG 服务器。
+适配 Minecraft 1.8.x-1.26.x 的 Spigot、Paper、Paper 衍生端与 Mohist、Arclight、Youer 等混合端虚拟保险柜插件，支持 SQLite/MySQL、权限动态槽位、回收箱和 GUI 管理。
 
 ## 分类与标签
-分类: protection
-标签: 领地, 保护, 审计, 权限
+分类: tools
+标签: 保险柜, 虚拟仓库, 跨服, MySQL, SQLite, GUI, 跨版本, 混合端, Mohist, Arclight, Youer, 工具
 
 ## 安装
 ```bash
-pnpm add yu-protect
+首次启动后编辑 plugins/YuVault/config.yml 与 messages.yml
 ```
 
 ---
 
-# Yu Market
+# YuChat
 
 ## 插件用途
-为服务器提供玩家市场、商品上架、交易税率与经济系统联动能力。
+适配 Minecraft 1.8.x-1.26.x 的 Spigot、Paper、Paper 衍生端与 Mohist、Arclight、Youer 等混合端聊天称呼、昵称、前后缀、悬浮消息和显示同步插件。
 
 ## 分类与标签
-分类: economy
-标签: 市场, 经济, 交易, 商品
+分类: tools
+标签: 聊天, 称呼, 昵称, 前后缀, PlaceholderAPI, LuckPerms, Vault, PlayerPoints, SQLite, MySQL, 跨版本, 混合端, Mohist, Arclight, Youer, 工具
 
 ## 安装
 ```bash
-pnpm add yu-market
+首次启动后编辑 plugins/YuChat/config.yml、messages.yml、gui.yml、titles.yml 与 effects.yml
 ```
