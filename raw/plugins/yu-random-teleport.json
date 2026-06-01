@@ -34,6 +34,7 @@
   },
   "links": {
     "docs": "/plugins/items/yu-random-teleport/",
+    "github": "https://github.com/vicuna-main/YuRandomTeleportIssueReport",
     "raw": "/raw/plugins/yu-random-teleport.llm.md"
   },
   "bstats": {

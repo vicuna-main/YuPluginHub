@@ -36,6 +36,7 @@
   },
   "links": {
     "docs": "/plugins/items/yu-vault/",
+    "github": "https://github.com/vicuna-main/YuVaultIssueReport",
     "raw": "/raw/plugins/yu-vault.llm.md"
   },
   "bstats": {

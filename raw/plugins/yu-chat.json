@@ -22,24 +22,26 @@
     "Youer",
     "工具"
   ],
-  "version": "1.1.0.0",
+  "version": "1.0.6 / 高级版",
   "status": "stable",
   "availability": [
-    "free"
+    "free",
+    "paid"
   ],
   "logo": "/assets/yu-chat/logo.png",
   "install": {
-    "npm": "将构建出的 YuChat-版本-debug.jar 或 YuChat-版本-obf.jar 放入服务端 plugins/ 目录",
+    "npm": "免费版 1.0.6 可在 Yu 插件交流群获取；需要高级版请赞助 https://afdian.com/item/5913558252bc11f1a1e15254001e7c00，获取 jar 后放入服务端 plugins/ 目录",
     "pnpm": "首次启动后编辑 plugins/YuChat/config.yml、messages.yml、gui.yml、titles.yml 与 effects.yml",
     "yarn": "需要经济、点券或权限显示时安装 Vault、PlayerPoints、LuckPerms、PlaceholderAPI 后重启服务端"
   },
   "compatibility": {
-    "yu": "独立 Bukkit 插件，无 Yu 前置要求；可选联动 PlaceholderAPI、LuckPerms、Vault、PlayerPoints",
+    "yu": "免费版 1.0.6 可在 Yu 插件交流群获取；高级版需通过爱发电赞助获取",
     "node": "Java 8 及以上运行环境",
     "minecraft": "Minecraft 1.8.x-1.26.x；适配 Spigot、Paper、Paper 衍生端，以及 Mohist、Arclight、Youer 等 Bukkit API 混合端"
   },
   "links": {
     "docs": "/plugins/items/yu-chat/",
+    "github": "https://github.com/vicuna-main/YuChatIssueReport",
     "raw": "/raw/plugins/yu-chat.llm.md"
   },
   "bstats": {
