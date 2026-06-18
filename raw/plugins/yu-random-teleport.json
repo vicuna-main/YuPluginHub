@@ -2,13 +2,16 @@
   "slug": "yu-random-teleport",
   "name": "YuRandomTeleport",
   "title": "YuRandomTeleport 随机传送插件",
-  "description": "适配 Minecraft 1.8.x-1.26.x 的 Spigot、Paper、Paper 衍生端与 Mohist、Arclight、Youer 等混合端随机传送插件。",
+  "description": "支持 Folia 调度、Paper 异步传送、PlaceholderAPI、公开 Java API 与多语言的跨版本安全随机传送插件。",
   "category": "tools",
   "tags": [
     "随机传送",
     "RTP",
     "传送",
     "Vault",
+    "PlaceholderAPI",
+    "Folia",
+    "API",
     "跨版本",
     "混合端",
     "Mohist",
@@ -16,7 +19,7 @@
     "Youer",
     "工具"
   ],
-  "version": "1.1.2.2",
+  "version": "1.2.0.0",
   "status": "stable",
   "availability": [
     "free"
@@ -24,17 +27,17 @@
   "logo": "/assets/plugin-random-teleport-logo.png",
   "install": {
     "npm": "将构建出的 YuRandomTeleport-版本-all.jar 放入服务端 plugins/ 目录",
-    "pnpm": "首次启动后编辑 plugins/YuRandomTeleport/config.yml 与 messages.yml",
-    "yarn": "需要经济扣费时安装 Vault 与经济插件后重启服务端"
+    "pnpm": "首次启动后编辑 plugins/YuRandomTeleport/config.yml 与 lang/ 下的语言文件",
+    "yarn": "Vault 与 PlaceholderAPI 均为可选软依赖；Folia 可直接加载"
   },
   "compatibility": {
-    "yu": "独立 Bukkit 插件，无 Yu 前置要求",
+    "yu": "独立 Bukkit 插件；Vault、PlaceholderAPI 均为可选软依赖",
     "node": "Java 8 及以上运行环境",
-    "minecraft": "Minecraft 1.8.x-1.26.x；适配 Spigot、Paper、Paper 衍生端，以及 Mohist、Arclight、Youer 等 Bukkit API 混合端"
+    "minecraft": "目标范围 Minecraft 1.8.x-1.26.x；已测试 Paper 1.8.8/1.12.2/1.16.5/1.21.1/1.26.2、Purpur 1.21.1、Folia 1.20.1、Youer 1.21.1"
   },
   "links": {
     "docs": "/plugins/items/yu-random-teleport/",
-    "github": "https://github.com/vicuna-main/YuRandomTeleportIssueReport",
+    "github": "https://github.com/vicuna-main/YuRTPIssueReport",
     "raw": "/raw/plugins/yu-random-teleport.llm.md"
   },
   "bstats": {
@@ -72,7 +75,7 @@
     "network": true,
     "fileSystem": true
   },
-  "updatedAt": "2026-06-01",
+  "updatedAt": "2026-06-18",
   "featured": false,
   "author": {
     "name": "Vicuna",
@@ -83,6 +86,6 @@
     "background": "/assets/plugin-random-teleport-logo.png",
     "accent": "#22c55e",
     "headline": "YuRandomTeleport 随机传送插件",
-    "summary": "主打 1.8.x-1.26.x 跨版本与 Spigot、Paper、Paper 衍生、Mohist、Arclight、Youer 等混合端适配。"
+    "summary": "1.2.0.0 新增 Folia/Paper 调度兼容、公开 Java API、生命周期事件、PlaceholderAPI 与按玩家语言显示。"
   }
 }

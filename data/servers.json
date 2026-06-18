@@ -29,7 +29,8 @@
       "yu-relic",
       "yupay",
       "yu-random-teleport",
-      "yu-vault"
+      "yu-vault",
+      "yu-chat"
     ],
     "featured": true,
     "sponsored": false,
@@ -39,7 +40,7 @@
       "contact": "QQ群：1011284597"
     },
     "createdAt": "2026-05-31",
-    "updatedAt": "2026-05-31",
+    "updatedAt": "2026-06-18",
     "homepage": {
       "title": "宇钛纪元",
       "background": "/assets/server-yutay-banner.png",
