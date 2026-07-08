@@ -2,7 +2,7 @@
   {
     "id": "yutay-era",
     "name": "宇钛纪元",
-    "description": "长期开放的模组生存服务器，使用 Yu 插件管理 RPG、聊天、保险柜、随机传送和赞助体系。",
+    "description": "长期开放的模组生存服务器，使用 Yu 插件管理 RPG、聊天、保险柜、传送套件和赞助体系。",
     "address": "mc.yutay.cn",
     "version": "1.21.1",
     "type": "modded",
@@ -21,14 +21,14 @@
       "长期开放",
       "YuRelic",
       "YuChat",
-      "YuRandomTeleport",
+      "YuTeleport",
       "YuPay",
       "YuVault"
     ],
     "plugins": [
       "yu-relic",
       "yupay",
-      "yu-random-teleport",
+      "yu-teleport",
       "yu-vault",
       "yu-chat"
     ],
@@ -88,7 +88,7 @@
   {
     "id": "skynode",
     "name": "SkyNode 空岛",
-    "description": "轻量空岛服务器，使用 YuChat 与 YuRandomTeleport 管理聊天展示和随机传送。",
+    "description": "轻量空岛服务器，使用 YuChat 与 YuTeleport 管理聊天展示和安全传送。",
     "address": "sky.skynode.local",
     "port": 25565,
     "version": "1.21",
@@ -104,7 +104,7 @@
     ],
     "plugins": [
       "yu-chat",
-      "yu-random-teleport"
+      "yu-teleport"
     ],
     "featured": true,
     "sponsored": true,

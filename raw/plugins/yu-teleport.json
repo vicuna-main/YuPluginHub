@@ -1,0 +1,100 @@
+{
+  "slug": "yu-teleport",
+  "name": "YuTeleport",
+  "title": "YuTeleport (YuTP) 传送套件",
+  "description": "由 YuRTP 演进而来的跨版本安全传送套件，覆盖随机传送、warp、home、tpa、坐标分享、经济扣费、PlaceholderAPI 与公开 Java API。",
+  "category": "tools",
+  "tags": [
+    "随机传送",
+    "RTP",
+    "传送",
+    "Warp",
+    "Home",
+    "TPA",
+    "Vault",
+    "PlayerPoints",
+    "PlaceholderAPI",
+    "Folia",
+    "API",
+    "跨版本",
+    "混合端",
+    "Mohist",
+    "Arclight",
+    "Youer",
+    "工具"
+  ],
+  "version": "2.0.0.0",
+  "status": "stable",
+  "availability": [
+    "free"
+  ],
+  "logo": "/assets/plugin-random-teleport-logo.png",
+  "install": {
+    "npm": "将构建出的 YuTeleport-版本-all.jar 放入服务端 plugins/ 目录",
+    "pnpm": "首次启动后编辑 plugins/YuTeleport/config.yml 与 lang/ 下的语言文件",
+    "yarn": "Vault、PlayerPoints 与 PlaceholderAPI 均为可选软依赖；Folia 可直接加载"
+  },
+  "compatibility": {
+    "yu": "独立 Bukkit 插件；Vault、PlayerPoints、PlaceholderAPI 均为可选软依赖",
+    "node": "Java 8 及以上运行环境",
+    "minecraft": "目标范围 Minecraft 1.8.x-1.26.x；已测试 Paper 1.8.8/1.12.2/1.16.5/1.21.1/1.26.2、Purpur 1.21.1、Folia 1.20.1、Youer 1.21.1"
+  },
+  "links": {
+    "docs": "/plugins/items/yu-teleport/",
+    "github": "https://github.com/vicuna-main/YuTeleportIssueReport",
+    "raw": "/raw/plugins/yu-teleport.llm.md"
+  },
+  "bstats": {
+    "enabled": true,
+    "pluginId": 32443,
+    "pluginName": "YuTeleport",
+    "software": "bukkit"
+  },
+  "showcase": {
+    "serversEnabled": true,
+    "maxServers": 6
+  },
+  "docs": {
+    "rawMarkdown": true,
+    "llmSummary": true,
+    "jsonMeta": true
+  },
+  "ads": {
+    "enabled": true,
+    "slots": [
+      "plugin.detail.sidebar",
+      "plugin.detail.bottom"
+    ]
+  },
+  "security": {
+    "permissions": [
+      "yuteleport.admin",
+      "yuteleport.use",
+      "yuteleport.biome",
+      "yuteleport.teleport.others",
+      "yuteleport.reload",
+      "yuteleport.share",
+      "yuteleport.bypass.*",
+      "yuteleport.warp.*",
+      "yuteleport.home.*",
+      "yuteleport.tpa.*",
+      "yuteleport.warps.*",
+      "yuteleport.group.*"
+    ],
+    "network": true,
+    "fileSystem": true
+  },
+  "updatedAt": "2026-07-08",
+  "featured": false,
+  "author": {
+    "name": "Vicuna",
+    "url": "https://github.com/vicuna-main"
+  },
+  "banner": "/assets/plugin-random-teleport-logo.png",
+  "hero": {
+    "background": "/assets/plugin-random-teleport-logo.png",
+    "accent": "#22c55e",
+    "headline": "YuTeleport (YuTP) 传送套件",
+    "summary": "2.0.0.0 将旧 YuRTP 升级为完整安全传送套件，新增 warp、home、tpa、坐标分享、PlayerPoints、预缓存、更新检查与更完整的 API/PAPI。"
+  }
+}

@@ -12,7 +12,7 @@ Yu Plugin Hub 是 Yu 插件生态的文档、插件索引、统计与服务器�
 ## Plugin Index
 - YuRelic: /plugins/items/yu-relic/
 - YuPay: /plugins/items/yupay/
-- YuRandomTeleport: /plugins/items/yu-random-teleport/
+- YuTeleport: /plugins/items/yu-teleport/
 - YuVault: /plugins/items/yu-vault/
 - YuChat: /plugins/items/yu-chat/
 

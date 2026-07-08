@@ -1,0 +1,12 @@
+ YuTeleport
+
+ 插件用途
+由 YuRTP 演进而来的跨版本安全传送套件，覆盖随机传送、warp、home、tpa、坐标分享、经济扣费、PlaceholderAPI 与公开 Java API。
+
+ 分类与标签
+分类: tools
+标签: 随机传送, RTP, 传送, Warp, Home, TPA, Vault, PlayerPoints, PlaceholderAPI, Folia, API, 跨版本, 混合端, Mohist, Arclight, Youer, 工具
+
+ 安装
+bash
+首次启动后编辑 plugins/YuTeleport/config.yml 与 lang/ 下的语言文件

@@ -23,10 +23,10 @@
       "serverVersion": "server_version"
     }
   },
-  "yu-random-teleport": {
+  "yu-teleport": {
     "enabled": true,
-    "pluginId": 30589,
-    "pluginName": "YuRandomTeleport",
+    "pluginId": 32443,
+    "pluginName": "YuTeleport",
     "software": "bukkit",
     "charts": {
       "servers": "servers",

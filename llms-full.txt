@@ -30,18 +30,18 @@
 
 ---
 
-# YuRandomTeleport
+# YuTeleport
 
 ## 插件用途
-支持 Folia 调度、Paper 异步传送、PlaceholderAPI、公开 Java API 与多语言的跨版本安全随机传送插件。
+由 YuRTP 演进而来的跨版本安全传送套件，覆盖随机传送、warp、home、tpa、坐标分享、经济扣费、PlaceholderAPI 与公开 Java API。
 
 ## 分类与标签
 分类: tools
-标签: 随机传送, RTP, 传送, Vault, PlaceholderAPI, Folia, API, 跨版本, 混合端, Mohist, Arclight, Youer, 工具
+标签: 随机传送, RTP, 传送, Warp, Home, TPA, Vault, PlayerPoints, PlaceholderAPI, Folia, API, 跨版本, 混合端, Mohist, Arclight, Youer, 工具
 
 ## 安装
 ```bash
-首次启动后编辑 plugins/YuRandomTeleport/config.yml 与 lang/ 下的语言文件
+首次启动后编辑 plugins/YuTeleport/config.yml 与 lang/ 下的语言文件
 ```
 
 ---
