@@ -2,7 +2,7 @@
   "slug": "yu-teleport",
   "name": "YuTeleport",
   "title": "YuTeleport (YuTP) 传送套件",
-  "description": "由 YuRTP 演进而来的跨版本安全传送套件，覆盖随机传送、warp、home、tpa、坐标分享、经济扣费、PlaceholderAPI 与公开 Java API。",
+  "description": "由 YuRTP 演进而来的跨版本安全传送套件，覆盖随机传送、warp、home、tpa、/back、坐标分享、经济扣费、PlaceholderAPI 与公开 Java API。",
   "category": "tools",
   "tags": [
     "随机传送",
@@ -11,6 +11,8 @@
     "Warp",
     "Home",
     "TPA",
+    "Back",
+    "死亡返回",
     "Vault",
     "PlayerPoints",
     "PlaceholderAPI",
@@ -23,7 +25,7 @@
     "Youer",
     "工具"
   ],
-  "version": "2.0.0.0",
+  "version": "2.0.1.0",
   "status": "stable",
   "availability": [
     "free"
@@ -78,6 +80,7 @@
       "yuteleport.warp.*",
       "yuteleport.home.*",
       "yuteleport.tpa.*",
+      "yuteleport.back.*",
       "yuteleport.warps.*",
       "yuteleport.group.*"
     ],
@@ -95,6 +98,6 @@
     "background": "/assets/plugin-random-teleport-logo.png",
     "accent": "#22c55e",
     "headline": "YuTeleport (YuTP) 传送套件",
-    "summary": "2.0.0.0 将旧 YuRTP 升级为完整安全传送套件，新增 warp、home、tpa、坐标分享、PlayerPoints、预缓存、更新检查与更完整的 API/PAPI。"
+    "summary": "2.0.1.0 将旧 YuRTP 升级为完整安全传送套件，覆盖 warp、home、tpa、/back、坐标分享、PlayerPoints、预缓存、更新检查与更完整的 API/PAPI。"
   }
 }
